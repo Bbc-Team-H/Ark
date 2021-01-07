@@ -1,3 +1,4 @@
+/* Handy Design */
 @media screen and (max-width: 414px) {
   p {
     font-size: 2rem;
@@ -71,9 +72,10 @@
   }
 
   body {
-    margin: 0 1em 0 1em;
+    margin: 0;
     padding: 0;
     background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
+    height: 100%;
   }
 
   #bottom {
@@ -137,9 +139,9 @@
     background-repeat: no-repeat;
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     left: 0;
-    transform: translateX(-100vw);
+    transform: translateX(-100%);
     transition: transform 0.4s ease-in-out;
   }
 
@@ -169,6 +171,30 @@
     margin: 0 9.5em;
     border-bottom: solid black;
   }
+
+    .grid4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #CBCBCB;
+    padding: 1em 0 1em 0;
+    margin: 22.5em 0 0 0;
+    text-align: center;
+  }
+  
+  #quellen {
+    font-size: 1em;
+  }
+
+  footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  #bild {
+    width: 100%;
+    margin: 0 0 5em 0;
+  }
 }
 
 
@@ -179,8 +205,8 @@
 
 
 
-
-@media screen and (min-width: 420px) {
+/* Desktop Design */
+@media screen and (min-width: 415px) {
   body {
     margin: 0;
     height: 100%;
@@ -243,7 +269,7 @@
 
   .grid {
     display: grid;
-    grid-template-columns: 30% 36% 33%;
+    grid-template-columns: 20% 46% 33%;
     grid-template-rows: 100%;
     grid-column-gap: 0;
     height: 20rem;
@@ -342,18 +368,46 @@
     font-size: 3em;
     text-align: center;
   }
-  
+
   #anleitung {
     font-size: 2em;
     margin: 2em 0 0 5em;
   }
 
-  .container2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+  .grid3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5em 0 5em 0;
+  }
+
+  #bild {
     width: 100%;
-    align-items: center;    
+  }
+
+  .grid4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #CBCBCB;
+    padding: 1em 0 1em 0;
+    margin: 22.5em 0 0 0;
+    text-align: center;
+  }
+
+  #quellen {
+    font-size: 1em;
+    margin: 0 0 0 4em;
+  }
+
+  #ersteller {
+    bottom: 0;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  #kaufen {
+    font-size: 3em;
+    text-decoration: underline;
   }
 }

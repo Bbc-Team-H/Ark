@@ -27,11 +27,23 @@
         bottom: 0;
         width: 92%;
         font-size: 50px;
+        color: black;
+        text-align: center;
     }
 
     html {
         height: 100%;
         position: absolute;
+    }
+
+    #prank {
+        color: black;
+        text-decoration: none;
+        background-color: #CBCBCB;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        font-size: 2em;
     }
 }
 
@@ -50,10 +62,9 @@
         background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
         background-repeat: no-repeat;
     }
-    
+
     form {
-        text-align: center;
-        margin: 10em 0 0 0;
+        margin: 10em 0 0 10em;
     }
 
     #comment {
@@ -78,6 +89,7 @@
         bottom: 0;
         font-size: 50px;
         margin: 0 0 5px 0;
+        color: black;
     }
 
     html {
@@ -85,7 +97,28 @@
         width: 100%;
         position: absolute;
     }
+
     #loel {
         text-align: center;
+        bottom: 0;
+        position: fixed;
+    }
+
+    h3 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    #prank {
+        color: black;
+        text-decoration: none;
+        background-color: #CBCBCB;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        font-size: 2em;
     }
 }
