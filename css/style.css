@@ -7,6 +7,7 @@
   }
 
   html {
+    margin: 0;
     height: 100%;
     position: absolute;
   }
@@ -134,14 +135,14 @@
     border: solid black;
   }
 
-  nav {
+    nav {
     background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
     background-repeat: no-repeat;
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     left: 0;
-    transform: translateX(-100%);
+    transform: translateX(-100vw);
     transition: transform 0.4s ease-in-out;
   }
 
@@ -156,7 +157,6 @@
   nav.back {
     transform: translateX(0);
   }
-
   a {
     color: black;
     text-decoration: none;
@@ -172,28 +172,33 @@
     border-bottom: solid black;
   }
 
-    .grid4 {
+  .grid4 {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #CBCBCB;
     padding: 1em 0 1em 0;
-    margin: 22.5em 0 0 0;
+    margin: 2em 0 0 0;
     text-align: center;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
   }
-  
+
   #quellen {
     font-size: 1em;
   }
 
   footer {
     bottom: 0;
-    position: fixed;
-    width: 100%;
   }
 
   #bild {
     width: 100%;
     margin: 0 0 5em 0;
+  }
+
+  #impresum {
+    text-decoration: underline;
   }
 }
 
@@ -252,7 +257,6 @@
     left: 0;
     transform: translateX(-100vw);
     transition: transform 0.4s ease-in-out;
-    margin: 0;
   }
 
   nav {
@@ -408,6 +412,10 @@
 
   #kaufen {
     font-size: 3em;
+    text-decoration: underline;
+  }
+
+  #impresum {
     text-decoration: underline;
   }
 }

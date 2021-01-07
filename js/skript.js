@@ -9,7 +9,7 @@ const toggleMenu = () => {
 }
 
 const menuback = () => {
-    nav.classList.remove("visible")
+    nav.classList.toggle("visible")
 }
 
 menuButtonback.addEventListener("click", menuback)
