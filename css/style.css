@@ -1,0 +1,359 @@
+@media screen and (max-width: 414px) {
+  p {
+    font-size: 2rem;
+    color: black;
+    margin: 2em 0 0 0;
+  }
+
+  html {
+    height: 100%;
+    position: absolute;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+
+  img.menu {
+    width: 90%;
+    margin: 3em 0 0 1em;
+    border-radius: 50px;
+  }
+
+  div.box {
+    border-bottom: solid;
+    border-width: 2px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+
+  #menu {
+    display: grid;
+    height: 3em;
+    margin: 2.7em 5px 0 0;
+    justify-content: center;
+    background-color: #CBCBCB;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-family: 'Marko One', serif;
+    font-size: 1.3em;
+    margin: 2.8em 0 0 0;
+
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 19% 30% 49%;
+    margin: 0 1em 0 1em;
+    border-bottom: dashed #58c2e2 4px;
+  }
+
+  #logo {
+    width: 100%;
+    margin: 1.5em 0 0 0;
+    background-color: white;
+  }
+
+  body {
+    margin: 0 1em 0 1em;
+    padding: 0;
+    background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
+  }
+
+  #bottom {
+    background-color: lightgray;
+    width: 92%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  #impresum {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+  }
+
+  #anleitung {
+    font-size: 14px;
+  }
+
+  h5 {
+    color: rgb(0, 0, 0);
+  }
+
+  #grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  #basis {
+    width: 90%;
+    margin: 1em 0 1em 0;
+  }
+
+  h4 {
+    background-color: #CBCBCB;
+    padding: 2px 0 0 1em;
+    border-radius: 5px;
+  }
+
+  #easteregg {
+    color: black;
+    text-decoration: none;
+  }
+
+  #striche {
+    margin: 4px 0 0 0;
+  }
+
+  #kaufen {
+    text-align: center;
+  }
+
+  #feedback {
+    margin: 1em 0 0.5em 0;
+    border: solid black;
+  }
+
+  nav {
+    background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    transform: translateX(-100vw);
+    transition: transform 0.4s ease-in-out;
+  }
+
+  nav {
+    transform: translateX(100);
+  }
+
+  nav.visible {
+    transform: translateX(0)
+  }
+
+  nav.back {
+    transform: translateX(0);
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  #back {
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+
+  #return {
+    margin: 0 9.5em;
+    border-bottom: solid black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 420px) {
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
+
+  }
+
+  html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 110px;
+    height: 15px;
+    background-color: #333;
+    margin: 29px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+
+  #menu {
+    display: grid;
+    width: 10em;
+    height: 10em;
+    margin: 6.5em 0 0 6em;
+    justify-content: center;
+    background-color: #CBCBCB;
+    border-radius: 15px;
+  }
+
+  nav {
+    background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    transform: translateX(-100vw);
+    transition: transform 0.4s ease-in-out;
+    margin: 0;
+  }
+
+  nav {
+    transform: translateX(100);
+  }
+
+  nav.visible {
+    transform: translateX(0)
+  }
+
+  nav.back {
+    transform: translateX(0);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 30% 36% 33%;
+    grid-template-rows: 100%;
+    grid-column-gap: 0;
+    height: 20rem;
+    width: 100%;
+    border-bottom: dashed #CBCBCB 4px;
+  }
+
+  #logo {
+    height: 98%;
+  }
+
+  h1 {
+    font-size: 8em;
+    font-family: 'Marko One', serif;
+  }
+
+  img.menu {
+    height: 30em;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+
+  a.wohin {
+    color: black;
+    text-decoration: none;
+    font-size: 3em;
+  }
+
+  p {
+    margin: 1em 0 1em 0;
+    font-size: 2em;
+  }
+
+  #back {
+    text-align: center;
+    font-size: 3em;
+  }
+
+  #bottom {
+    background-color: lightgray;
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  #impresum {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+  }
+
+  h5 {
+    font-size: 3em;
+    margin: 1em 0 3em 10px;
+  }
+
+  #logi {
+    text-align: center;
+  }
+
+  #basis {
+    width: 90%;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  h4 {
+    font-size: 4em;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #grid2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 10em;
+  }
+
+  ul {
+    font-size: 3em;
+    margin: 3em 0 0 5em;
+  }
+
+  #fett {
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  #anleitung {
+    font-size: 2em;
+    margin: 2em 0 0 5em;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;    
+  }
+}
