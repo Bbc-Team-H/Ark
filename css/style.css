@@ -289,12 +289,12 @@
 
   h1 {
     font-size: 8em;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   img.menu {
-    height: 30em;
-    width: auto;
+    height: auto;
+    width: 20%;
   }
 
   .container {
