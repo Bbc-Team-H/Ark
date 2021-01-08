@@ -1,7 +1,7 @@
 @media screen and (max-width: 414px) {
     body {
         margin: 0 1em 0 1em;
-        background: linear-gradient(to right, rgb(0, 197, 204), rgb(48, 204, 0));
+        background: linear-gradient(to right, #00C0CC, #30CC00);
         background-repeat: no-repeat;
     }
 
